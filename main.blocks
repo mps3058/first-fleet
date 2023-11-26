@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="se_3e-U0@dux0WKka4TK" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="Q*QAq)@0^)(#Y/p,`!q%"><value name="img"><shadow type="background_image_picker" id="~`X=0?Y|mU,mlAm_]]B:"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id=".Nq.pOYpJxp/5zL8,u}r">Player</variable><variable type="KIND_SpriteKind" id="Z7Q.j_$!Z2gX.Ca20!2!">Projectile</variable><variable type="KIND_SpriteKind" id="J76|1.$u,tp.?L!ct|kK">Food</variable><variable type="KIND_SpriteKind" id="az*Jx!_YCbI;6qr1[^{k">Enemy</variable><variable id="HzV2%|sA3OCkuAtzui5$">mySprite</variable><variable id="M/=[,/)%6ifkr0cOpltL">First-fleet ship</variable></variables><block type="pxt-on-start" id="se_3e-U0@dux0WKka4TK" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="Q*QAq)@0^)(#Y/p,`!q%"><value name="img"><shadow type="background_image_picker" id="~`X=0?Y|mU,mlAm_]]B:"><field name="img">img`
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -119,4 +119,21 @@
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
-`</field><data>{"commentRefs":[],"fieldData":{"img":"~`X=0?Y|mU,mlAm_]]B:"}}</data></shadow></value></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"~`X=0?Y|mU,mlAm_]]B:"}}</data></shadow></value><next><block type="variables_set" id="$e@ji3u9yyy%1LEeVuzQ"><field name="VAR" id="M/=[,/)%6ifkr0cOpltL">First-fleet ship</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="utsB6vR1-/O)8ybu5gyz"><value name="img"><shadow type="screen_image_picker" id="g=ODVV8UHvB).N{lFwi3"><field name="img">img`
+. . . . . . d d d . . . . . . . 
+. . . . . d d d d d . . . . . . 
+. . . . d d d e d d d . . . . . 
+. . . d d d d e d d d d . . . . 
+. . d d d d d e d d d d d . . . 
+. d d d d d d e d d d d d d . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+e e e e e e e e e e e e e e e e 
+. e e f e e f e e f e e f e e . 
+. . e e e e e e e e e e e e . . 
+. . . e e e e e e e e e e . . . 
+. . . . e e e e e e e e . . . . 
+. . . . . e e e e e e . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"g=ODVV8UHvB).N{lFwi3"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="xNyYc?H0A(,_TgzT%jB!"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
