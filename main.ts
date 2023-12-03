@@ -138,3 +138,4 @@ let Firstfleet_ship = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+controller.moveSprite(Firstfleet_ship, 100, 100)
